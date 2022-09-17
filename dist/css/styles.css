@@ -11433,3 +11433,11 @@ section.resume-section .resume-section-content {
     padding-bottom: 5rem;
   }
 }
+
+.reactive_hover a {
+    transition: all 0.2s linear;
+}
+
+.reactive_hover:hover a {
+    transform: scale(1.4);
+}
