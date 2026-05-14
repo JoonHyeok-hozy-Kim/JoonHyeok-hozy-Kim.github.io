@@ -73,21 +73,18 @@ cv:
 
     Skills:
       - name: ML Packages
-        level: Advanced
         keywords: PyTorch, Slurm, Wandb, GPyTorch, BoTorch
       - name: Tools
-        level: Advanced
         keywords: Linux, AWS (SAA Certified), Docker, Django, Stata, Oracle ERP
       - name: Programming Languages
-        level: Advanced
         keywords: Python, PL/SQL, C/C++, Java, JavaScript, R
       - name: Database Management
-        level: Advanced
         keywords: Oracle DBMS, MariaDB, MongoDB
 
     Certificates:
       - name: AWS Certified Solutions Architect - Associate
         date: 2023-07-24
+        icon: "fa-brands fa-amazon"
         issuer: AWS
       - name: Microsoft Azure - AI Fundamentals (AI-900)
         date: 2023-05-21
