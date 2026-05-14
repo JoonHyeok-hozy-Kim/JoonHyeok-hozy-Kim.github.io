@@ -37,7 +37,18 @@ ninja.data = [{
               handler: () => {
                 window.location.href = "/teaching/";
               },
-            },{id: "post-a-style-based-generator-architecture-for-generative-adversarial-networks-style-gan",
+            },{id: "post-",
+        
+          title: "",
+        
+        description: "",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2026/2026-05-14-vae_ddpm/";
+          
+        },
+      },{id: "post-a-style-based-generator-architecture-for-generative-adversarial-networks-style-gan",
         
           title: "A Style-Based Generator Architecture for Generative Adversarial Networks (Style GAN)",
         
