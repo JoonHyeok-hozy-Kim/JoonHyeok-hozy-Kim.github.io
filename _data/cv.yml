@@ -1,40 +1,45 @@
 cv:
   name: Joon Hyeok Kim
-  headline: Graduate Research Assistant
+  label: Graduate Research Assistant
   email: hozy5333@gmail.com
   location: Philadelphia, PA
-  photo:
+  image: ""
+  summary: "Graduate research assistant specializing in Deep Generative Models."
 
   social_networks:
-    - network: LinkedIn
-      username: "joon-hyeok-kim-271a4b12a"
-    - network: GitHub
-      username: JoonHyeok-hozy-Kim
     - network: X
       username: hozy5333
+    - network: GitHub
+      username: JoonHyeok-hozy-Kim
+    - network: LinkedIn
+      username: www.linkedin.com/in/joon-hyeok-kim-271a4b12a
 
   sections:
-    education:
+    Education:
       - institution: University of Pennsylvania
         location: Philadelphia, PA
+        # url: https://www.upenn.edu/
         area: Computer and Information Technology
-        degree: M.S.
-        start_date: "2024-08"
-        end_date: "2026-05"
+        studyType: MS
+        start_date: 2024
+        end_date: 2026
+        score: "4.0 / 4.0"
 
       - institution: Sogang University
         location: Seoul, Korea
         area: Economics
-        degree: B.A.
-        start_date: "2013-03"
-        end_date: "2019-02"
+        studyType: BA
+        start_date: 2013
+        end_date: 2019
+        score: "4.04 / 4.3"
 
-    experience:
+    Experience:
       - company: LG CNS
         position: ERP Software Engineer
         location: Seoul, Korea
-        start_date: "2019-09"
-        end_date: "2024-08"
+        start_date: 2019
+        end_date: 2024
+        summary: Supported LG Electronics' Global ERP (GERP) system.
         highlights:
           - Optimized large-scale enterprise resource planning systems.
           - Managed critical financial and accounting data flows.
@@ -42,23 +47,50 @@ cv:
       - company: ROK Army
         position: Squad Leader (Sergeant)
         location: South Korea
-        start_date: "2013-01"
-        end_date: "2015-12"
+        start_date: 2013
+        end_date: 2015
         highlights:
           - Served in the 53rd Logistics Support Group.
           - Led the Information and Tactics Squad.
 
-    Awards and Publications:
-      - "**Global Korea Scholarship (GKS)** - Ministry of Education, Republic of Korea (2023-07)"
-      - "**Grokking of Diffusion Models: Case Study on Modular Addition** - ICLR 2026 DeLTa Workshop (2026-05). Co-authored with Yong-Hyun Park, Mattis Dalsætra Østby, and Jiatao Gu."
+    Awards:
+      - title: Global Korea Scholarship (GKS)
+        date: 2023-07-01
+        awarder: Ministry of Education, Republic of Korea
+        summary: National scholarship for academic excellence.
 
-    Certifications:
-      - "**AWS Certified Solutions Architect - Associate** (2023-07)"
-      - "**Microsoft Azure - AI Fundamentals (AI-900)** (2023-05)"
-      - "**Oracle Database 12c Administrator Certified Professional** (2019-02)"
+    Publications:
+      - title: "Grokking of Diffusion Models: Case Study on Modular Addition"
+        authors:
+          - Joon Hyeok Kim
+          - Yong-Hyun Park
+          - Mattis Dalsætra Østby
+          - Jiatao Gu
+        publisher: ICLR 2026 DeLTa Workshop
+        releaseDate: 2026-05-01
+        # url: https://arxiv.org/abs/2604.17673
+        summary: Investigation into the internal dynamics and algorithmic generalization of diffusion models.
 
     Skills:
-      - "**ML Packages:** PyTorch, Slurm, Wandb, GPyTorch, BoTorch"
-      - "**Tools:** Linux, AWS (SAA Certified), Docker, Django, Stata, Oracle ERP"
-      - "**Programming Languages:** Python, PL/SQL, C/C++, Java, JavaScript, R"
-      - "**Database Management:** Oracle DBMS (OCP Certified), MariaDB, MongoDB"
+      - name: ML Packages
+        keywords: PyTorch, Slurm, Wandb, GPyTorch, BoTorch
+      - name: Tools
+        keywords: Linux, AWS (SAA Certified), Docker, Django, Stata, Oracle ERP
+      - name: Programming Languages
+        keywords: Python, PL/SQL, C/C++, Java, JavaScript, R
+      - name: Database Management
+        keywords: Oracle DBMS (OCP Certified), MariaDB, MongoDB
+
+    Certificates:
+      - name: AWS Certified Solutions Architect - Associate
+        date: 2023-07-24
+        icon: "fa-brands fa-aws"
+        issuer: AWS
+      - name: Microsoft Azure - AI Fundamentals (AI-900)
+        date: 2023-05-21
+        icon: "fa-brands fa-microsoft"
+        issuer: Microsoft
+      - name: Oracle Database 12c Administrator Certified Professional
+        date: 2019-02-28
+        icon: "fa-solid fa-database"
+        issuer: Oracle Univ.
