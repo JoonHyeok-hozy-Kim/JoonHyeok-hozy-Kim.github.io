@@ -491,16 +491,21 @@ ninja.data = [{
           description: "another project with an image 🎉",
           section: "Projects",handler: () => {
               window.location.href = "/projects/9_project/";
+            },},{id: "teachings-ta-mathematical-foundations-of-computer-science",
+          title: '(TA) Mathematical Foundations Of Computer Science',
+          description: "Led weekly recitations for 40+ graduate students, delivering lectures on discrete mathematics, including set theory, induction, and graph theory. Provided technical mentorship through office hours to strengthen students&#39; foundational reasoning and abstract problem-solving capabilities.",
+          section: "Teachings",handler: () => {
+              window.location.href = "/teachings/2025_fall_upenn_ta_discrete_math/";
             },},{id: "teachings-data-science-fundamentals",
           title: 'Data Science Fundamentals',
           description: "This course covers the foundational aspects of data science, including data collection, cleaning, analysis, and visualization. Students will learn practical skills for working with real-world datasets.",
           section: "Teachings",handler: () => {
-              window.location.href = "/teachings/data-science-fundamentals/";
+              window.location.href = "/teachings/data-science-fundamentals_md/";
             },},{id: "teachings-introduction-to-machine-learning",
           title: 'Introduction to Machine Learning',
           description: "This course provides an introduction to machine learning concepts, algorithms, and applications. Students will learn about supervised and unsupervised learning, model evaluation, and practical implementations.",
           section: "Teachings",handler: () => {
-              window.location.href = "/teachings/introduction-to-machine-learning/";
+              window.location.href = "/teachings/introduction-to-machine-learning_md/";
             },},{
         id: 'social-cv',
         title: 'CV',
