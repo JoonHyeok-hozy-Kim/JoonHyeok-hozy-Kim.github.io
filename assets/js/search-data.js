@@ -440,16 +440,11 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
-            },},{id: "news-a-simple-inline-announcement",
-          title: 'A simple inline announcement.',
+            },},{id: "news-our-work-grokking-of-diffusion-models-case-study-on-modular-addition-was-presented-at-the-iclr-2026-delta-workshop",
+          title: 'Our work Grokking of Diffusion Models: Case Study on Modular Addition was presented...',
           description: "",
-          section: "News",},{id: "news-a-long-announcement-with-details",
-          title: 'A long announcement with details',
-          description: "",
-          section: "News",handler: () => {
-              window.location.href = "/news/announcement_2/";
-            },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
-          title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
+          section: "News",},{id: "news-graduating-from-mcit-at-upenn",
+          title: 'Graduating from MCIT at UPenn!',
           description: "",
           section: "News",},{id: "projects-project-1",
           title: 'project 1',
