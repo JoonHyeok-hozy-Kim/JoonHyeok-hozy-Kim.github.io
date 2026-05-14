@@ -37,7 +37,29 @@ ninja.data = [{
               handler: () => {
                 window.location.href = "/teaching/";
               },
-            },{id: "post-a-post-with-plotly-js",
+            },{id: "post-a-style-based-generator-architecture-for-generative-adversarial-networks-style-gan",
+        
+          title: "A Style-Based Generator Architecture for Generative Adversarial Networks (Style GAN)",
+        
+        description: "Karras et al.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2025/style_gan/";
+          
+        },
+      },{id: "post-generative-adversarial-nets-gan",
+        
+          title: "Generative Adversarial Nets (GAN)",
+        
+        description: "Goodfellow et al.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2025/gan/";
+          
+        },
+      },{id: "post-a-post-with-plotly-js",
         
           title: "a post with plotly.js",
         
