@@ -7,4 +7,4 @@ related_posts: false
 
 Our work [Grokking of Diffusion Models: Case Study on Modular Addition](https://openreview.net/forum?id=rcpSrDLyBI&noteId=XgvgfTC41e) was presented at the ICLR 2026 DeLTa Workshop.
 
-![](..\assets\img\news\260427_iclr_delta_poster.png)
+![alt text](..\assets\img\news\260427_iclr_delta_poster.png){: width="500px"}
