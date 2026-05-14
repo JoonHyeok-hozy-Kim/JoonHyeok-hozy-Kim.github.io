@@ -154,8 +154,8 @@ newsletter:
 # -----------------------------------------------------------------------------
 
 collections:
-  # books:
-  #   output: false
+  books:
+    output: false
   news:
     defaults:
       layout: post
