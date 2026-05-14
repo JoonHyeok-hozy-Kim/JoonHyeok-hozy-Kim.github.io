@@ -41,7 +41,7 @@ cv:
           - Mattis Dalsætra Østby
           - Jiatao Gu
         publisher: ICLR 2026 DeLTa Workshop
-        releaseDate: 2026-05-01
+        releaseDate: 2026-04-27
         # url: https://arxiv.org/abs/2604.17673
         summary: Investigation into the internal dynamics and algorithmic generalization of diffusion models.
 
@@ -70,6 +70,7 @@ cv:
         date: 2023-07-01
         awarder: Ministry of Education, Republic of Korea
         summary: National scholarship for academic excellence.
+
     Skills:
       - name: ML Packages
         keywords: PyTorch, Slurm, Wandb, GPyTorch, BoTorch
