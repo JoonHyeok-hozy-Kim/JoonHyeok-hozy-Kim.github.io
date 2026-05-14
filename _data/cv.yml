@@ -33,6 +33,18 @@ cv:
         end_date: 2019
         score: "4.04 / 4.3"
 
+    Publications:
+      - title: "Grokking of Diffusion Models: Case Study on Modular Addition"
+        authors:
+          - Joon Hyeok Kim
+          - Yong-Hyun Park
+          - Mattis Dalsætra Østby
+          - Jiatao Gu
+        publisher: ICLR 2026 DeLTa Workshop
+        releaseDate: 2026-05-01
+        # url: https://arxiv.org/abs/2604.17673
+        summary: Investigation into the internal dynamics and algorithmic generalization of diffusion models.
+
     Experience:
       - company: LG CNS
         position: ERP Software Engineer
@@ -58,19 +70,6 @@ cv:
         date: 2023-07-01
         awarder: Ministry of Education, Republic of Korea
         summary: National scholarship for academic excellence.
-
-    Publications:
-      - title: "Grokking of Diffusion Models: Case Study on Modular Addition"
-        authors:
-          - Joon Hyeok Kim
-          - Yong-Hyun Park
-          - Mattis Dalsætra Østby
-          - Jiatao Gu
-        publisher: ICLR 2026 DeLTa Workshop
-        releaseDate: 2026-05-01
-        # url: https://arxiv.org/abs/2604.17673
-        summary: Investigation into the internal dynamics and algorithmic generalization of diffusion models.
-
     Skills:
       - name: ML Packages
         keywords: PyTorch, Slurm, Wandb, GPyTorch, BoTorch
