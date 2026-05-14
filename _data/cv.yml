@@ -1,45 +1,40 @@
 cv:
   name: Joon Hyeok Kim
-  label: Graduate Research Assistant
+  headline: Graduate Research Assistant
   email: hozy5333@gmail.com
   location: Philadelphia, PA
-  image: ""
-  summary: "Graduate research assistant specializing in Deep Generative Models."
+  photo:
 
   social_networks:
-    - network: X
-      username: hozy5333
+    - network: LinkedIn
+      username: "joon-hyeok-kim-271a4b12a"
     - network: GitHub
       username: JoonHyeok-hozy-Kim
-    - network: LinkedIn
-      username: www.linkedin.com/in/joon-hyeok-kim-271a4b12a
+    - network: X
+      username: hozy5333
 
   sections:
-    Education:
+    education:
       - institution: University of Pennsylvania
         location: Philadelphia, PA
-        # url: https://www.upenn.edu/
         area: Computer and Information Technology
-        studyType: Master of Science
-        start_date: 2024
-        end_date: 2026
-        score: "4.0 / 4.0"
+        degree: M.S.
+        start_date: "2024-09"
+        end_date: present
 
       - institution: Sogang University
         location: Seoul, Korea
         area: Economics
-        studyType: Bachelor of Arts
-        start_date: 2013
-        end_date: 2019
-        score: "4.04 / 4.3"
+        degree: B.A.
+        start_date: "2013-03"
+        end_date: "2019-02"
 
-    Experience:
+    experience:
       - company: LG CNS
         position: ERP Software Engineer
         location: Seoul, Korea
-        start_date: 2019
-        end_date: 2024
-        summary: Supported LG Electronics' Global ERP (GERP) system.
+        start_date: "2019-09"
+        end_date: "2024-08"
         highlights:
           - Optimized large-scale enterprise resource planning systems.
           - Managed critical financial and accounting data flows.
@@ -47,50 +42,23 @@ cv:
       - company: ROK Army
         position: Squad Leader (Sergeant)
         location: South Korea
-        start_date: 2013
-        end_date: 2015
+        start_date: "2013-01"
+        end_date: "2015-12"
         highlights:
           - Served in the 53rd Logistics Support Group.
           - Led the Information and Tactics Squad.
 
-    Awards:
-      - title: Global Korea Scholarship (GKS)
-        date: 2023-07-01
-        awarder: Ministry of Education, Republic of Korea
-        summary: National scholarship for academic excellence.
+    Awards and Publications:
+      - "**Global Korea Scholarship (GKS)** - Ministry of Education, Republic of Korea (2023-07)"
+      - "**Grokking of Diffusion Models: Case Study on Modular Addition** - ICLR 2026 DeLTa Workshop (2026-05). Co-authored with Yong-Hyun Park, Mattis Dalsætra Østby, and Jiatao Gu."
 
-    Publications:
-      - title: "Grokking of Diffusion Models: Case Study on Modular Addition"
-        authors:
-          - Joon Hyeok Kim
-          - Yong-Hyun Park
-          - Mattis Dalsætra Østby
-          - Jiatao Gu
-        publisher: ICLR 2026 DeLTa Workshop
-        releaseDate: 2026-05-01
-        # url: https://arxiv.org/abs/2604.17673
-        summary: Investigation into the internal dynamics and algorithmic generalization of diffusion models.
+    Certifications:
+      - "**AWS Certified Solutions Architect - Associate** (2023-07)"
+      - "**Microsoft Azure - AI Fundamentals (AI-900)** (2023-05)"
+      - "**Oracle Database 12c Administrator Certified Professional** (2019-02)"
 
     Skills:
-      - name: ML Packages
-        keywords: PyTorch, Slurm, Wandb, GPyTorch, BoTorch
-      - name: Tools
-        keywords: Linux, AWS (SAA Certified), Docker, Django, Stata, Oracle ERP
-      - name: Programming Languages
-        keywords: Python, PL/SQL, C/C++, Java, JavaScript, R
-      - name: Database Management
-        keywords: Oracle DBMS (OCP Certified), MariaDB, MongoDB
-
-    Certificates:
-      - name: AWS Certified Solutions Architect - Associate
-        date: 2023-07-24
-        icon: "fa-brands fa-aws"
-        issuer: AWS
-      - name: Microsoft Azure - AI Fundamentals (AI-900)
-        date: 2023-05-21
-        icon: "fa-brands fa-microsoft"
-        issuer: Microsoft
-      - name: Oracle Database 12c Administrator Certified Professional
-        date: 2019-02-28
-        icon: "fa-solid fa-database"
-        issuer: Oracle Univ.
+      - "**ML Packages:** PyTorch, Slurm, Wandb, GPyTorch, BoTorch"
+      - "**Tools:** Linux, AWS (SAA Certified), Docker, Django, Stata, Oracle ERP"
+      - "**Programming Languages:** Python, PL/SQL, C/C++, Java, JavaScript, R"
+      - "**Database Management:** Oracle DBMS (OCP Certified), MariaDB, MongoDB"
