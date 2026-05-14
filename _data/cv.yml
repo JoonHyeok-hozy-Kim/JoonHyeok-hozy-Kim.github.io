@@ -84,11 +84,13 @@ cv:
     Certificates:
       - name: AWS Certified Solutions Architect - Associate
         date: 2023-07-24
-        icon: "fa-brands fa-amazon"
+        icon: <i class="fa-brands fa-amazon"></i>
         issuer: AWS
       - name: Microsoft Azure - AI Fundamentals (AI-900)
         date: 2023-05-21
+        icon: <i class="fa-brands fa-microsoft"></i>
         issuer: Microsoft
       - name: Oracle Database 12c Administrator Certified Professional
         date: 2019-02-28
+        icon: <i class="fa-brands fa-database"></i>
         issuer: Oracle University
