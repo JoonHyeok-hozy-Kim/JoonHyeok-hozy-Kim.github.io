@@ -79,7 +79,7 @@ cv:
       - name: Programming Languages
         keywords: Python, PL/SQL, C/C++, Java, JavaScript, R
       - name: Database Management
-        keywords: Oracle DBMS, MariaDB, MongoDB
+        keywords: Oracle DBMS (OCP Certified), MariaDB, MongoDB
 
     Certificates:
       - name: AWS Certified Solutions Architect - Associate

@@ -56,6 +56,20 @@ layout: default
           {% endunless %}
         {% endfor %}
       {% endif %}
+      {% if page.pdf %}
+        <a
+          {% if page.pdf contains '://' %}
+            href="{{ page.pdf }}"
+          {% else %}
+            href="{{ page.pdf | relative_url }}"
+          {% endif %}
+          target="_blank"
+          rel="noopener noreferrer"
+          class="float-right"
+        >
+          <i class="fa-solid fa-file-pdf"></i>
+        </a>
+      {% endif %}
     </p>
   </header>
 
