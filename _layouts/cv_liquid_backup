@@ -108,15 +108,15 @@ layout: default
                   </td>
                 </tr>
               {% endif %}
-              {% if cv.summary %}
-                <tr>
-                  <td class="p-1 pr-2 font-weight-bold"><b>Summary</b></td>
-                  <td class="p-1 pl-2 font-weight-light">
-                    <p>{{ cv.summary | markdownify | remove: '<p>' | remove: '</p>' }}</p>
-                  </td>
-                </tr>
-              {% endif %}
             </table>
+          </div>
+        {% endif %}
+
+        <!-- Summary -->
+        {% if cv.summary %}
+          <div class="card mt-3 p-3">
+            <h3 class="card-title font-weight-medium">Professional Summary</h3>
+            <p>{{ cv.summary | markdownify | remove: '<p>' | remove: '</p>' }}</p>
           </div>
         {% endif %}
 

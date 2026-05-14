@@ -3,6 +3,8 @@ cv:
   label: Graduate Research Assistant
   email: hozy5333@gmail.com
   location: Philadelphia, PA
+  image: ""
+  summary: "Graduate research assistant specializing in Deep Generative Models."
 
   social_networks:
     - network: X
