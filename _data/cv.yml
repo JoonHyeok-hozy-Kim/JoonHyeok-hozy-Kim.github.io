@@ -4,7 +4,7 @@ cv:
   email: hozy5333@gmail.com
   location: Philadelphia, PA
   image: ""
-  summary: "Graduate researcher specializing in Mechanistic Interpretability and Generative Models."
+  summary: "Graduate researcher specializing in Deep Generative Models."
 
   social_networks:
     - network: X
@@ -18,7 +18,7 @@ cv:
     Education:
       - institution: University of Pennsylvania
         location: Philadelphia, PA
-        url: https://www.upenn.edu/
+        # url: https://www.upenn.edu/
         area: Computer and Information Technology
         studyType: Master of Science
         start_date: 2024
@@ -68,7 +68,7 @@ cv:
           - Jiatao Gu
         publisher: ICLR 2026 DeLTa Workshop
         releaseDate: 2026-05-01
-        url: https://arxiv.org/abs/2604.17673
+        # url: https://arxiv.org/abs/2604.17673
         summary: Investigation into the internal dynamics and algorithmic generalization of diffusion models.
 
     Skills:
@@ -78,8 +78,20 @@ cv:
       - name: Tools
         level: Advanced
         keywords: Linux, AWS (SAA Certified), Docker, Django, Stata, Oracle ERP
+      - name: Programming Languages
+        level: Advanced
+        keywords: Python, PL/SQL, C/C++, Java, JavaScript, R
+      - name: Database Management
+        level: Advanced
+        keywords: Oracle DBMS, MariaDB, MongoDB
 
     Certificates:
       - name: AWS Certified Solutions Architect - Associate
         date: 2023-07-24
         issuer: AWS
+      - name: Microsoft Azure: AI Fundamentals (AI-900)
+        date: 2023-05-21
+        issuer: Microsoft
+      - name: Oracle Database 12c Administrator Certified Professional
+        date: 2019-02-28
+        issuer: Oracle University
