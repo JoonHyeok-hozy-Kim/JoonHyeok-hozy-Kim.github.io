@@ -3,6 +3,9 @@
 # for more information, please refer to the documentation of jekyll-socials plugin: https://github.com/george-gca/jekyll-socials
 cv_pdf: /assets/pdf/CV_(Joon Hyeok Kim).pdf # path to your CV PDF file
 email: hozy5333@gmail.com.com # your email address
+x_username: hozy5333
+github_username: JoonHyeok-hozy-Kim
+linkedin_username: joon-hyeok-kim-271a4b12a
 # inspirehep_id: 1010907 # Inspire HEP author ID
 # rss_icon: true # comment this line to hide the RSS icon
 # scholar_userid: qc6CJjYAAAAJ # your Google Scholar ID
