@@ -37,15 +37,15 @@ ninja.data = [{
               handler: () => {
                 window.location.href = "/teaching/";
               },
-            },{id: "post-",
+            },{id: "post-dm-reconst-variational-perspective-from-vaes-to-ddpm",
         
-          title: "",
+          title: "(DM Reconst.) Variational Perspective - From VAEs to DDPM",
         
-        description: "",
+        description: "Lai et al.",
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/blog/2026/2026-05-14-vae_ddpm/";
+            window.location.href = "/blog/2026/vae_ddpm/";
           
         },
       },{id: "post-a-style-based-generator-architecture-for-generative-adversarial-networks-style-gan",
