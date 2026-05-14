@@ -1,12 +1,85 @@
----
-layout: cv
-permalink: /cv/
-title: CV
-nav: true
-nav_order: 5
-cv_pdf: /assets/pdf/example_pdf.pdf # you can also use external links here
-cv_format: rendercv # options: rendercv, jsonresume
-description: This is a description of the page. You can modify it in '_pages/cv.md'. You can also change or remove the top pdf download button.
-toc:
-  sidebar: left
----
+cv:
+  name: Joon Hyeok Kim
+  label: AI Researcher
+  email: hozy5333@gmail.com
+  location: Philadelphia, PA
+  image: ""
+  summary: "Graduate researcher specializing in Mechanistic Interpretability and Generative Models."
+
+  social_networks:
+    - network: X
+      username: hozy5333
+    - network: GitHub
+      username: JoonHyeok-hozy-Kim
+    - network: LinkedIn
+      username: www.linkedin.com/in/joon-hyeok-kim-271a4b12a
+
+  sections:
+    Education:
+      - institution: University of Pennsylvania
+        location: Philadelphia, PA
+        url: https://www.upenn.edu/
+        area: Computer and Information Technology
+        studyType: Master of Science
+        start_date: 2024
+        end_date: 2026
+        score: "4.0 / 4.0"
+
+      - institution: Sogang University
+        location: Seoul, Korea
+        area: Economics
+        studyType: Bachelor of Arts
+        start_date: 2013
+        end_date: 2019
+        score: "4.04 / 4.3"
+
+    Experience:
+      - company: LG CNS
+        position: ERP Software Engineer
+        location: Seoul, Korea
+        start_date: 2019
+        end_date: 2024
+        summary: Supported LG Electronics' Global ERP (GERP) system.
+        highlights:
+          - Optimized large-scale enterprise resource planning systems.
+          - Managed critical financial and accounting data flows.
+
+      - company: ROK Army
+        position: Squad Leader (Sergeant)
+        location: South Korea
+        start_date: 2013
+        end_date: 2015
+        highlights:
+          - Served in the 53rd Logistics Support Group.
+          - Led the Information and Tactics Squad.
+
+    Awards:
+      - title: Global Korea Scholarship (GKS)
+        date: 2023-07-01
+        awarder: Ministry of Education, Republic of Korea
+        summary: National scholarship for academic excellence.
+
+    Publications:
+      - title: "Grokking of Diffusion Models: Case Study on Modular Addition"
+        authors:
+          - Joon Hyeok Kim
+          - Yong-Hyun Park
+          - Mattis Dalsætra Østby
+          - Jiatao Gu
+        publisher: ICLR 2026 DeLTa Workshop
+        releaseDate: 2026-05-01
+        url: https://arxiv.org/abs/2604.17673
+        summary: Investigation into the internal dynamics and algorithmic generalization of diffusion models.
+
+    Skills:
+      - name: ML Packages
+        level: Advanced
+        keywords: PyTorch, Slurm, Wandb, GPyTorch, BoTorch
+      - name: Tools
+        level: Advanced
+        keywords: Linux, AWS (SAA Certified), Docker, Django, Stata, Oracle ERP
+
+    Certificates:
+      - name: AWS Certified Solutions Architect - Associate
+        date: 2023-07-24
+        issuer: AWS
