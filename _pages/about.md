@@ -1,5 +1,0 @@
-I am a graduate research assistant at [GMLR Lab](https://jiataogu.me/team/) led by [Prof. Jiatao Gu](https://jiataogu.me/) at the University of Pennsylvania.
-
-My research journey is driven by a fundamental curiosity: "*How do complex neural systems actually learn and generalize?*" My current work focuses on the Mechanistic Interpretability of Deep Generative Models, specifically investigating how diffusion models learn algorithmic structures (e.g., modular addition and grokking).
-
-Prior to joining UPenn, I spent three years as a Software Engineer at LG CNS, where I supported LG Electronics' Global ERP (GERP) system. My background in Macroeconomics, combined with this engineering experience, has shaped a unique long-term goal: to build transparent and reliable World Models that can provide rigorous insights for complex decision-making systems, such as macroeconomic policy. I aim to bridge the gap between the black-box nature of deep learning and the high-stakes demand for accountability in critical real-world applications.
