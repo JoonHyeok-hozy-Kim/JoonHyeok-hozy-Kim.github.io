@@ -64,6 +64,13 @@ i.icondepartment {
   margin-right: 0.3rem;
 }
 
+/* Certificates icon alignment */
+.cv .list-group-item i {
+  margin-left: 0;
+  margin-right: 0.35rem;
+  vertical-align: text-bottom;
+}
+
 table.institution {
   margin-bottom: 1rem;
 }
