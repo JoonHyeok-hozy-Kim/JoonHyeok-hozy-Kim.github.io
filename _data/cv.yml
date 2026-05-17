@@ -40,12 +40,21 @@ cv:
           - Yong-Hyun Park
           - Mattis Dalsætra Østby
           - Jiatao Gu
-        publisher: ICLR 2026 DeLTa Workshop
+        publisher: <a href='https://openreview.net/forum?id=rcpSrDLyBI' target='_blank'>ICLR 2026 DeLTa Workshop</a>
         releaseDate: 2026-04-27
-        # url: https://arxiv.org/abs/2604.17673
-        summary: Investigation into the internal dynamics and algorithmic generalization of diffusion models.
+        url: "https://arxiv.org/abs/2604.17673"
+        summary: Investigation into the internal dynamics and algorithmic generalization of diffusion models using Mechanistic Interpretability
 
     Experience:
+      - company: GMLR Lab at UPenn
+        position: Graduate Reseasrch Assistant
+        location: Philadelphia, PA
+        start_date: 2025
+        end_date: Present
+        summary: Researching the learning dynamics and algorithmic generalization of generative AI
+        highlights:
+          - "Published and presented research on diffusion models at the <a href='https://openreview.net/forum?id=rcpSrDLyBI' target='_blank'>ICLR 2026 DeLTa Workshop</a>."
+
       - company: LG CNS
         position: ERP Software Engineer
         location: Seoul, Korea
