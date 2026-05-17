@@ -48,6 +48,61 @@ ninja.data = [{
             window.location.href = "/blog/2026/vae_ddpm/";
           
         },
+      },{id: "post-score-based-generative-modeling-through-stochastic-differential-equation",
+        
+          title: "Score-Based Generative Modeling through Stochastic Differential Equation",
+        
+        description: "Song et al. 2021",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2025/score_based_model/";
+          
+        },
+      },{id: "post-presentation-pdf-high-resolution-image-synthesis-with-latent-diffusion-models-latent-diffusion",
+        
+          title: "(Presentation PDF) High Resolution Image Synthesis with Latent Diffusion Models (Latent Diffusion)",
+        
+        description: "Rombach et al. 2022",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2025/latent_diffusion/";
+          
+        },
+      },{id: "post-denoising-diffusion-probabilistic-models-ddpm",
+        
+          title: "Denoising Diffusion Probabilistic Models (DDPM)",
+        
+        description: "Ho et al. 2020",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2025/ddpm/";
+          
+        },
+      },{id: "post-presentation-pdf-video-models-are-zero-shot-learners-and-reasoners",
+        
+          title: "(Presentation PDF) Video Models are Zero-shot Learners and Reasoners",
+        
+        description: "Wiedemer et al. 2025",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2025/video_model_zero_shot/";
+          
+        },
+      },{id: "post-variational-autoencoder-bayes-vae",
+        
+          title: "Variational Autoencoder Bayes (VAE)",
+        
+        description: "Kingma et al.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2025/vae/";
+          
+        },
       },{id: "post-presentation-pdf-a-style-based-generator-architecture-for-generative-adversarial-networks-style-gan",
         
           title: "(Presentation PDF) A Style-Based Generator Architecture for Generative Adversarial Networks (Style GAN)",
