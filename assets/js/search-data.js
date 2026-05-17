@@ -37,9 +37,9 @@ ninja.data = [{
               handler: () => {
                 window.location.href = "/teaching/";
               },
-            },{id: "post-dm-reconst-variational-perspective-from-vaes-to-ddpm",
+            },{id: "post-dm-reconst-ch-2-variational-perspective-from-vaes-to-ddpm",
         
-          title: "(DM Reconst.) Variational Perspective - From VAEs to DDPM",
+          title: "(DM Reconst.) Ch.2 Variational Perspective - From VAEs to DDPM",
         
         description: "Lai et al.",
         section: "Posts",
@@ -48,9 +48,9 @@ ninja.data = [{
             window.location.href = "/blog/2026/vae_ddpm/";
           
         },
-      },{id: "post-a-style-based-generator-architecture-for-generative-adversarial-networks-style-gan",
+      },{id: "post-presentation-pdf-a-style-based-generator-architecture-for-generative-adversarial-networks-style-gan",
         
-          title: "A Style-Based Generator Architecture for Generative Adversarial Networks (Style GAN)",
+          title: "(Presentation PDF) A Style-Based Generator Architecture for Generative Adversarial Networks (Style GAN)",
         
         description: "Karras et al.",
         section: "Posts",
@@ -75,8 +75,8 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
-            },},{id: "news-our-work-grokking-of-diffusion-models-case-study-on-modular-addition-was-presented-at-the-iclr-2026-delta-workshop",
-          title: 'Our work Grokking of Diffusion Models: Case Study on Modular Addition was presented...',
+            },},{id: "news-our-work-grokking-of-diffusion-models-case-study-on-modular-addition-arxiv-was-presented-at-the-iclr-2026-delta-workshop",
+          title: 'Our work Grokking of Diffusion Models: Case Study on Modular Addition (arxiv) was...',
           description: "",
           section: "News",},{id: "news-graduating-from-mcit-at-upenn",
           title: 'Graduating from MCIT at UPenn!',
