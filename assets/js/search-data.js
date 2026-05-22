@@ -37,7 +37,18 @@ ninja.data = [{
               handler: () => {
                 window.location.href = "/teaching/";
               },
-            },{id: "post-dm-reconst-ch-2-variational-perspective-from-vaes-to-ddpm",
+            },{id: "post-dm-reconst-ch-3-score-based-perspective-from-ebms-to-ncsn",
+        
+          title: "(DM Reconst.) Ch.3 Score-Based Perspective - From EBMs to NCSN",
+        
+        description: "Lai et al.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2026/ebm_ncsn/";
+          
+        },
+      },{id: "post-dm-reconst-ch-2-variational-perspective-from-vaes-to-ddpm",
         
           title: "(DM Reconst.) Ch.2 Variational Perspective - From VAEs to DDPM",
         
