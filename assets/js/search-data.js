@@ -37,7 +37,18 @@ ninja.data = [{
               handler: () => {
                 window.location.href = "/teaching/";
               },
-            },{id: "post-dm-reconst-ch-3-score-based-perspective-from-ebms-to-ncsn",
+            },{id: "post-dm-reconst-ch-4-score-sde-famework",
+        
+          title: "(DM Reconst.) Ch.4 Score SDE Famework",
+        
+        description: "Lai et al.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2026/score_sde/";
+          
+        },
+      },{id: "post-dm-reconst-ch-3-score-based-perspective-from-ebms-to-ncsn",
         
           title: "(DM Reconst.) Ch.3 Score-Based Perspective - From EBMs to NCSN",
         
