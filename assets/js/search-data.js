@@ -37,7 +37,18 @@ ninja.data = [{
               handler: () => {
                 window.location.href = "/teaching/";
               },
-            },{id: "post-dm-reconst-ch-4-score-sde-famework",
+            },{id: "post-dm-reconst-ch-5-flow-based-perspective-from-nfs-to-flow-matching",
+        
+          title: "(DM Reconst.) Ch.5 Flow-Based Perspective - From NFs to Flow Matching",
+        
+        description: "Lai et al.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2026/nf_fm/";
+          
+        },
+      },{id: "post-dm-reconst-ch-4-score-sde-famework",
         
           title: "(DM Reconst.) Ch.4 Score SDE Famework",
         
@@ -68,6 +79,61 @@ ninja.data = [{
         handler: () => {
           
             window.location.href = "/blog/2026/vae_ddpm/";
+          
+        },
+      },{id: "post-normalizing-flows-are-capable-of-generative-models-tarflow",
+        
+          title: "Normalizing Flows are Capable of Generative Models (Tarflow)",
+        
+        description: "Zhai et al.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2026/nf_tarflow/";
+          
+        },
+      },{id: "post-density-estimation-using-real-nvp",
+        
+          title: "Density Estimation Using Real NVP",
+        
+        description: "Dinh et al.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2026/real_nvp/";
+          
+        },
+      },{id: "post-nice-non-linear-independent-components-estimation",
+        
+          title: "NICE - Non-Linear Independent Components Estimation",
+        
+        description: "Dinh et al. 2015",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2026/nf_nice/";
+          
+        },
+      },{id: "post-variational-inference-with-normalizing-flows",
+        
+          title: "Variational Inference with Normalizing Flows",
+        
+        description: "Rezende et al.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2026/nf_variational_inference/";
+          
+        },
+      },{id: "post-free-energy-entropy-and-temperature",
+        
+          title: "Free Energy, Entropy, and Temperature",
+        
+        description: "hozy",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2026/free_energy/";
           
         },
       },{id: "post-score-based-generative-modeling-through-stochastic-differential-equation",
@@ -114,6 +180,50 @@ ninja.data = [{
             window.location.href = "/blog/2025/video_model_zero_shot/";
           
         },
+      },{id: "post-scaling-rectified-flow-transformers-for-high-resolution-image-synthesis-stable-diffusion-3",
+        
+          title: "Scaling Rectified Flow Transformers for High-Resolution Image Synthesis (Stable Diffusion 3)",
+        
+        description: "Esser et al. 2024",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2025/sd3/";
+          
+        },
+      },{id: "post-flow-matching-for-generative-modeling-cfm",
+        
+          title: "Flow Matching for Generative Modeling (CFM)",
+        
+        description: "Lipman et al. 2023",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2025/conditional_flow_matching/";
+          
+        },
+      },{id: "post-flow-straight-and-fast-learning-to-generate-and-transfer-data-with-rectified-flow-rectified-flow",
+        
+          title: "Flow Straight and Fast - Learning to Generate and Transfer Data with Rectified...",
+        
+        description: "Liu et al. 2022",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2025/rectified_flow/";
+          
+        },
+      },{id: "post-guiding-a-diffusion-model-with-a-bad-version-of-itself-autoguidance",
+        
+          title: "Guiding a Diffusion Model with a Bad Version of Itself (Autoguidance)",
+        
+        description: "Karras et al. 2024",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2025/autoguidance/";
+          
+        },
       },{id: "post-variational-autoencoder-bayes-vae",
         
           title: "Variational Autoencoder Bayes (VAE)",
@@ -123,6 +233,28 @@ ninja.data = [{
         handler: () => {
           
             window.location.href = "/blog/2025/vae/";
+          
+        },
+      },{id: "post-classifier-free-diffusion-guidance-cfg",
+        
+          title: "Classifier-Free Diffusion Guidance (CFG)",
+        
+        description: "Ho et al. 2022",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2025/classifier_free_guidance/";
+          
+        },
+      },{id: "post-improved-denoising-diffusion-probabilistic-models-improved-ddpm",
+        
+          title: "Improved Denoising Diffusion Probabilistic Models (Improved DDPM)",
+        
+        description: "Nichol et al. 2021",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2025/improved_ddpm/";
           
         },
       },{id: "post-presentation-pdf-a-style-based-generator-architecture-for-generative-adversarial-networks-style-gan",
