@@ -16,7 +16,7 @@ footer_text: >
   Photos from <a href="https://unsplash.com" target="_blank">Unsplash</a>.
 keywords: jekyll, jekyll-theme, academic-website, portfolio-website # add your own keywords or leave empty
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
-icon: favicons/upenn_shield_vanilla.ico # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
+icon: favicons/icons8-luck-windows-metro-32.png # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
 url: https://joonhyeok-hozy-kim.github.io/ # the base hostname & protocol for your site
 baseurl:  # the subpath of your site, e.g. /blog/. Leave blank for root
@@ -94,7 +94,7 @@ bing_site_verification: # out your bing-site-verification ID (Bing Webmaster)
 blog_name: pendantic-euphoria # blog_name will be displayed in your blog page
 blog_description: joon's jocund journey jotting jewels
 permalink: /blog/:year/:title/
-lsi: false # produce an index for related posts
+lsi: true # produce an index for related posts
 
 # Pagination
 pagination:
@@ -272,7 +272,7 @@ jekyll-archives:
     enabled: [year, tags, categories] # enables year, tag and category archives (remove if you need to disable one of them).
 
 display_tags: [] # these tags will be displayed on the front page of your blog
-display_categories: ["diffusion_model", "GAN"] # these categories will be displayed on the front page of your blog
+display_categories: ["diffusion_model", "normalizing_flow", "GAN"] # these categories will be displayed on the front page of your blog
 
 # -----------------------------------------------------------------------------
 # Jekyll Scholar
