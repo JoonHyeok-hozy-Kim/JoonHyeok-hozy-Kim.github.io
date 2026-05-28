@@ -37,7 +37,18 @@ ninja.data = [{
               handler: () => {
                 window.location.href = "/teaching/";
               },
-            },{id: "post-dm-reconst-ch-5-flow-based-perspective-from-nfs-to-flow-matching",
+            },{id: "post-dm-reconst-ch-6-a-unified-and-systemic-lens-on-diffusion-models",
+        
+          title: "(DM Reconst.) Ch.6 A Unified and Systemic Lens on Diffusion Models",
+        
+        description: "Lai et al.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2026/unified_lens_on_dm/";
+          
+        },
+      },{id: "post-dm-reconst-ch-5-flow-based-perspective-from-nfs-to-flow-matching",
         
           title: "(DM Reconst.) Ch.5 Flow-Based Perspective - From NFs to Flow Matching",
         
