@@ -206,7 +206,7 @@ pretty_table: true
       - Magnitude & Velocity)
         - The variance $\sigma^2$ functions as the magnitude (or step size) required to traverse back to the origin.
         - Hence, the term $\sigma^2 \nabla_y \log q(y)$ can be interpreted as the correction velocity that shifts the noisy sample $y$ back into the clean sample $x$.
-          - $$y + \sigma^2 \nabla_y \log q(y) \approx \mathbb{E}[x|y]$$.
+          - $$y + \sigma^2 \nabla_y \log q(y) \approx \mathbb{E}[x\mid y]$$.
   - Thus, if we know $$\nabla_y \log q(y)$$., the gradient of log likelihood $$\log q(y)$$., we may denoise into
     - $$\hat{x}:=\mathbb{E}[x\mid y]$$.
   - Now, suppose our model is well trained and achieved the likelihood of $$p_{\text{model}}(y)$$..
