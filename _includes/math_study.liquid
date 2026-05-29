@@ -1,0 +1,40 @@
+{% if site.math_study_notes %}
+  <div class="notes">
+    {% assign notes_by_category = site.math_study_notes | sort: 'category' | group_by: 'category' %}
+
+    {% for notes_category in notes_by_category %}
+      <h2 class="category">{{ notes_category.name }}</h2>
+      <div class="note-list">
+        {% assign notes = notes_category.items | sort: 'date' %}
+        {% for curr_note in notes %}
+
+        <div style="display: flex; align-items: flex-start; gap: 15px; margin-top: 15px">
+            <div style="flex-shrink: 0;">
+                <h7 style="margin: 0;">{{ curr_note.date | date: '%B %d, %Y' }}</h7>
+            </div>
+
+            <div style="flex-grow: 1; min-width: 0; display: flex; flex-wrap: wrap; align-items: center; gap: 10px;">
+                <h5 style="margin: 0;"><a href="{{ curr_note.url | relative_url }}">{{ curr_note.title }}</a></h5>
+                
+                {% if curr_note.tags %}
+                    <ul style="display: contents;">
+                        <i class="fa-solid fa-hashtag fa-sm"></i> 
+                        {% for tag in curr_note.tags %}
+                            <li style="word-break: break-word; overflow-wrap: break-word; line-height: 0.5; list-style: none;">
+                                {{ tag }}
+                            </li>
+                        {% endfor %}
+                    </ul>
+                {% endif %}
+            </div>
+        </div>
+
+        {% endfor %}
+      </div><br><br>
+    {% endfor %}
+  </div>
+{% else %}
+  <p>No notes available yet.</p>
+{% endif %}
+
+

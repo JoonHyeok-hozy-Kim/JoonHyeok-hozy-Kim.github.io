@@ -3,7 +3,7 @@ layout: post
 title: Normalizing Flows are Capable of Generative Models (Tarflow)
 date: 2026-03-16 11:00:00
 description: Zhai et al.
-tags: tarflow transformer
+tags: tarflow transformer MAF AR
 categories: normalizing_flow
 # pdf: _posts/250908_style_gan/slides_style_gan.pdf
 pretty_table: true

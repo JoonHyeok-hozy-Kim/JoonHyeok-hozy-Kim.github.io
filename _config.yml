@@ -164,6 +164,9 @@ collections:
     output: false
   teachings:
     output: true
+  math_study_notes:
+    output: true
+    permalink: /math_study/:path/
 
 # -----------------------------------------------------------------------------
 # Jekyll settings
