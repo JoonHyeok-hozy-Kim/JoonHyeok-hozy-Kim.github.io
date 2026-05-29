@@ -30,7 +30,14 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/blog/";
           },
-        },{id: "dropdown-teaching",
+        },{id: "dropdown-math-study",
+              title: "math study",
+              description: "",
+              section: "Dropdown",
+              handler: () => {
+                window.location.href = "/math_study_index/";
+              },
+            },{id: "dropdown-teaching",
               title: "teaching",
               description: "",
               section: "Dropdown",
@@ -295,6 +302,56 @@ ninja.data = [{
           description: "",
           section: "Books",handler: () => {
               window.location.href = "/books/the_godfather/";
+            },},{id: "math_study_notes-set-theory-1",
+          title: 'Set Theory 1',
+          description: "",
+          section: "Math_study_notes",handler: () => {
+              window.location.href = "/math_study/260520/";
+            },},{id: "math_study_notes-set-theory-2",
+          title: 'Set Theory 2',
+          description: "",
+          section: "Math_study_notes",handler: () => {
+              window.location.href = "/math_study/260521/";
+            },},{id: "math_study_notes-set-theory-3",
+          title: 'Set Theory 3',
+          description: "",
+          section: "Math_study_notes",handler: () => {
+              window.location.href = "/math_study/260522/";
+            },},{id: "math_study_notes-completeness-axiom",
+          title: 'Completeness Axiom',
+          description: "",
+          section: "Math_study_notes",handler: () => {
+              window.location.href = "/math_study/260523/";
+            },},{id: "math_study_notes-denseness-of-rational-numbers",
+          title: 'Denseness of Rational Numbers',
+          description: "",
+          section: "Math_study_notes",handler: () => {
+              window.location.href = "/math_study/260524/";
+            },},{id: "math_study_notes-convergence-of-sequences",
+          title: 'Convergence of Sequences',
+          description: "",
+          section: "Math_study_notes",handler: () => {
+              window.location.href = "/math_study/260525/";
+            },},{id: "math_study_notes-limit-theorems",
+          title: 'Limit Theorems',
+          description: "",
+          section: "Math_study_notes",handler: () => {
+              window.location.href = "/math_study/260526/";
+            },},{id: "math_study_notes-definition-of-topological-space",
+          title: 'Definition of Topological Space',
+          description: "",
+          section: "Math_study_notes",handler: () => {
+              window.location.href = "/math_study/260527/";
+            },},{id: "math_study_notes-mathematical-analysis-amp-metric-topology",
+          title: 'Mathematical Analysis &amp;amp; Metric Topology',
+          description: "",
+          section: "Math_study_notes",handler: () => {
+              window.location.href = "/math_study/260528/";
+            },},{id: "math_study_notes-ε-δ-and-the-convergence-of-a-sequence",
+          title: 'ε-δ and the Convergence of a Sequence',
+          description: "",
+          section: "Math_study_notes",handler: () => {
+              window.location.href = "/math_study/260529/";
             },},{id: "news-our-work-grokking-of-diffusion-models-case-study-on-modular-addition-arxiv-was-presented-at-the-iclr-2026-delta-workshop",
           title: 'Our work Grokking of Diffusion Models: Case Study on Modular Addition (arxiv) was...',
           description: "",
