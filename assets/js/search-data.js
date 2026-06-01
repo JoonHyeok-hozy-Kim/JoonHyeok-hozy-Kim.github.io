@@ -352,6 +352,16 @@ ninja.data = [{
           description: "",
           section: "Math_study_notes",handler: () => {
               window.location.href = "/math_study/260529/";
+            },},{id: "math_study_notes-mct-amp-nip",
+          title: 'MCT &amp;amp; NIP',
+          description: "",
+          section: "Math_study_notes",handler: () => {
+              window.location.href = "/math_study/260530/";
+            },},{id: "math_study_notes-liminf-amp-limsup",
+          title: 'liminf &amp;amp; limsup',
+          description: "",
+          section: "Math_study_notes",handler: () => {
+              window.location.href = "/math_study/260531/";
             },},{id: "news-our-work-grokking-of-diffusion-models-case-study-on-modular-addition-arxiv-was-presented-at-the-iclr-2026-delta-workshop",
           title: 'Our work Grokking of Diffusion Models: Case Study on Modular Addition (arxiv) was...',
           description: "",
