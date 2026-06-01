@@ -301,3 +301,52 @@ ul.task-list input[type="checkbox"] {
     }
   }
 }
+
+// Math Study Toggle Button
+
+.math-study-toggle-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0;
+  background-color: var(--global-card-bg-color);
+  border: 1px solid var(--global-divider-color);
+  border-radius: 0.375rem;
+  padding: 0;
+  cursor: pointer;
+  font-size: 0.875rem;
+  font-weight: 500;
+  transition: all 0.2s ease-in-out;
+
+  &:hover {
+    background-color: var(--global-bg-color);
+    border-color: var(--global-theme-color);
+  }
+
+  .toggle-label {
+    display: inline-block;
+    padding: 0.375rem 0.75rem;
+    background-color: transparent;
+    color: var(--global-text-color);
+    transition: all 0.2s ease-in-out;
+    border-radius: 0.25rem;
+
+    &.active {
+      background-color: var(--global-theme-color);
+      color: white;
+    }
+
+    &:not(.active) {
+      color: var(--global-text-color-light);
+    }
+  }
+}
+
+// Math Study Views
+
+.math-study-view {
+  display: none;
+
+  &.active {
+    display: block;
+  }
+}
