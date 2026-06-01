@@ -362,6 +362,11 @@ ninja.data = [{
           description: "",
           section: "Math_study_notes",handler: () => {
               window.location.href = "/math_study/260531/";
+            },},{id: "math_study_notes-concepts-in-algebra",
+          title: 'Concepts in Algebra',
+          description: "",
+          section: "Math_study_notes",handler: () => {
+              window.location.href = "/math_study/260601/";
             },},{id: "news-our-work-grokking-of-diffusion-models-case-study-on-modular-addition-arxiv-was-presented-at-the-iclr-2026-delta-workshop",
           title: 'Our work Grokking of Diffusion Models: Case Study on Modular Addition (arxiv) was...',
           description: "",
