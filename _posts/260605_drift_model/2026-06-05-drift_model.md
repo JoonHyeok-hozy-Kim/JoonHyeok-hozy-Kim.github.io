@@ -104,4 +104,6 @@ pretty_table: true
 
 #### Algorithm)
 
-{% include figure.liquid path="assets/img/blog/260603_dmd/001.png" class="img-fluid rounded z-depth-1" zoomable=true %}
+{% include figure.liquid path="assets/img/blog/260605_drift_model/001.png" class="img-fluid rounded z-depth-1" zoomable=true %}
+
+{% include figure.liquid path="assets/img/blog/260605_drift_model/002.png" class="img-fluid rounded z-depth-1" zoomable=true %}
