@@ -44,7 +44,40 @@ ninja.data = [{
               handler: () => {
                 window.location.href = "/teaching/";
               },
-            },{id: "post-dm-reconst-ch-6-a-unified-and-systemic-lens-on-diffusion-models",
+            },{id: "post-generative-modeling-via-drifting",
+        
+          title: "Generative Modeling via Drifting",
+        
+        description: "Deng et al.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2026/dmd/";
+          
+        },
+      },{id: "post-one-step-diffusion-with-distribution-matching-distillation-dmd",
+        
+          title: "One-step Diffusion with Distribution Matching Distillation (DMD)",
+        
+        description: "Yin et al.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2026/dmd/";
+          
+        },
+      },{id: "post-dm-reconst-wip-ch-10-distillation-based-methods-for-fast-sampling",
+        
+          title: "(DM Reconst.) [WIP] Ch.10 Distillation-Based Methods for Fast Sampling",
+        
+        description: "Lai et al.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2026/distillation/";
+          
+        },
+      },{id: "post-dm-reconst-ch-6-a-unified-and-systemic-lens-on-diffusion-models",
         
           title: "(DM Reconst.) Ch.6 A Unified and Systemic Lens on Diffusion Models",
         
@@ -367,6 +400,11 @@ ninja.data = [{
           description: "",
           section: "Math_study_notes",handler: () => {
               window.location.href = "/math_study/260601/";
+            },},{id: "math_study_notes-temp",
+          title: 'temp',
+          description: "",
+          section: "Math_study_notes",handler: () => {
+              window.location.href = "/math_study/temp/";
             },},{id: "news-our-work-grokking-of-diffusion-models-case-study-on-modular-addition-arxiv-was-presented-at-the-iclr-2026-delta-workshop",
           title: 'Our work Grokking of Diffusion Models: Case Study on Modular Addition (arxiv) was...',
           description: "",
