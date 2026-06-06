@@ -52,7 +52,7 @@ ninja.data = [{
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/blog/2026/dmd/";
+            window.location.href = "/blog/2026/drift_model/";
           
         },
       },{id: "post-one-step-diffusion-with-distribution-matching-distillation-dmd",
