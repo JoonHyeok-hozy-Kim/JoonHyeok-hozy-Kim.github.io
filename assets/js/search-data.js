@@ -400,11 +400,26 @@ ninja.data = [{
           description: "",
           section: "Math_study_notes",handler: () => {
               window.location.href = "/math_study/260601/";
-            },},{id: "math_study_notes-temp",
-          title: 'temp',
+            },},{id: "math_study_notes-vector-space-amp-zorn-39-s-lemma",
+          title: 'Vector Space &amp;amp; Zorn&amp;#39;s Lemma',
           description: "",
           section: "Math_study_notes",handler: () => {
-              window.location.href = "/math_study/temp/";
+              window.location.href = "/math_study/260602/";
+            },},{id: "math_study_notes-existence-of-basis-amp-dimensionality",
+          title: 'Existence of Basis &amp;amp; Dimensionality',
+          description: "",
+          section: "Math_study_notes",handler: () => {
+              window.location.href = "/math_study/260603/";
+            },},{id: "math_study_notes-dimensionality-amp-various-vector-spaces",
+          title: 'Dimensionality &amp;amp; Various Vector Spaces',
+          description: "",
+          section: "Math_study_notes",handler: () => {
+              window.location.href = "/math_study/260604/";
+            },},{id: "math_study_notes-matrix-representation-of-the-linear-transformation",
+          title: 'Matrix Representation of the Linear Transformation',
+          description: "",
+          section: "Math_study_notes",handler: () => {
+              window.location.href = "/math_study/260607/";
             },},{id: "news-our-work-grokking-of-diffusion-models-case-study-on-modular-addition-arxiv-was-presented-at-the-iclr-2026-delta-workshop",
           title: 'Our work Grokking of Diffusion Models: Case Study on Modular Addition (arxiv) was...',
           description: "",
