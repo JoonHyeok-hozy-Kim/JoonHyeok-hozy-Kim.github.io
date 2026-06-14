@@ -420,6 +420,31 @@ ninja.data = [{
           description: "",
           section: "Math_study_notes",handler: () => {
               window.location.href = "/math_study/260607/";
+            },},{id: "math_study_notes-abstraction-of-linear-combination",
+          title: 'Abstraction of Linear Combination',
+          description: "",
+          section: "Math_study_notes",handler: () => {
+              window.location.href = "/math_study/260609/";
+            },},{id: "math_study_notes-homomorphism",
+          title: 'Homomorphism',
+          description: "",
+          section: "Math_study_notes",handler: () => {
+              window.location.href = "/math_study/260610/";
+            },},{id: "math_study_notes-cyclic-group",
+          title: 'Cyclic Group',
+          description: "",
+          section: "Math_study_notes",handler: () => {
+              window.location.href = "/math_study/260611/";
+            },},{id: "math_study_notes-inverse-of-lagrange-39-s-theorem",
+          title: 'Inverse of Lagrange&amp;#39;s Theorem',
+          description: "",
+          section: "Math_study_notes",handler: () => {
+              window.location.href = "/math_study/260612/";
+            },},{id: "math_study_notes-coset-amp-lagrange-39-s-theorem",
+          title: 'Coset &amp;amp; Lagrange&amp;#39;s Theorem',
+          description: "",
+          section: "Math_study_notes",handler: () => {
+              window.location.href = "/math_study/260614/";
             },},{id: "news-our-work-grokking-of-diffusion-models-case-study-on-modular-addition-arxiv-was-presented-at-the-iclr-2026-delta-workshop",
           title: 'Our work Grokking of Diffusion Models: Case Study on Modular Addition (arxiv) was...',
           description: "",
