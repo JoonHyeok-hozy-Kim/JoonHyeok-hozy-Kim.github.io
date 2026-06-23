@@ -445,6 +445,26 @@ ninja.data = [{
           description: "",
           section: "Math_study_notes",handler: () => {
               window.location.href = "/math_study/260614/";
+            },},{id: "math_study_notes-group-action",
+          title: 'Group Action',
+          description: "",
+          section: "Math_study_notes",handler: () => {
+              window.location.href = "/math_study/260615/";
+            },},{id: "math_study_notes-normal-subgroup",
+          title: 'Normal Subgroup',
+          description: "",
+          section: "Math_study_notes",handler: () => {
+              window.location.href = "/math_study/260618/";
+            },},{id: "math_study_notes-1-1-correspondence-of-normal-subgroups",
+          title: '1-1 Correspondence of Normal Subgroups',
+          description: "",
+          section: "Math_study_notes",handler: () => {
+              window.location.href = "/math_study/260622/";
+            },},{id: "math_study_notes-isomorphism-theorems",
+          title: 'Isomorphism Theorems',
+          description: "",
+          section: "Math_study_notes",handler: () => {
+              window.location.href = "/math_study/260623/";
             },},{id: "news-our-work-grokking-of-diffusion-models-case-study-on-modular-addition-arxiv-was-presented-at-the-iclr-2026-delta-workshop",
           title: 'Our work Grokking of Diffusion Models: Case Study on Modular Addition (arxiv) was...',
           description: "",
