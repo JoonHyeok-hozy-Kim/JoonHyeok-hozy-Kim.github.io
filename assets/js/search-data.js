@@ -44,9 +44,9 @@ ninja.data = [{
               handler: () => {
                 window.location.href = "/teaching/";
               },
-            },{id: "post-generative-modeling-via-drifting",
+            },{id: "post-presentation-pdf-generative-modeling-via-drifting",
         
-          title: "Generative Modeling via Drifting",
+          title: "(Presentation PDF) Generative Modeling via Drifting",
         
         description: "Deng et al.",
         section: "Posts",
