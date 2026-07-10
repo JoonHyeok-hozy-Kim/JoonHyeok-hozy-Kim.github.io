@@ -1,11 +1,11 @@
 ---
 layout: post
-title: Generative Modeling via Drifting
+title: (Presentation PDF) Generative Modeling via Drifting
 date: 2026-06-05 11:00:00
 description: Deng et al.
 tags: 
-categories: diffusion_model
-pdf: _posts/250908_style_gan/slides_drift_model.pdf
+categories: drift_model
+pdf: assets/pdf/posts/slides_drift_model.pdf
 pretty_table: true
 ---
 
