@@ -475,6 +475,31 @@ ninja.data = [{
           description: "",
           section: "Math_study_notes",handler: () => {
               window.location.href = "/math_study/260625/";
+            },},{id: "math_study_notes-determinant",
+          title: 'Determinant',
+          description: "",
+          section: "Math_study_notes",handler: () => {
+              window.location.href = "/math_study/260626/";
+            },},{id: "math_study_notes-coordinate-change",
+          title: 'Coordinate Change',
+          description: "",
+          section: "Math_study_notes",handler: () => {
+              window.location.href = "/math_study/260629/";
+            },},{id: "math_study_notes-eigenvectors-amp-diagonalization-1",
+          title: 'Eigenvectors &amp;amp; Diagonalization 1',
+          description: "",
+          section: "Math_study_notes",handler: () => {
+              window.location.href = "/math_study/260708/";
+            },},{id: "math_study_notes-eigenvectors-amp-diagonalization-2",
+          title: 'Eigenvectors &amp;amp; Diagonalization 2',
+          description: "",
+          section: "Math_study_notes",handler: () => {
+              window.location.href = "/math_study/260713/";
+            },},{id: "math_study_notes-diagonalization",
+          title: 'Diagonalization',
+          description: "",
+          section: "Math_study_notes",handler: () => {
+              window.location.href = "/math_study/260714/";
             },},{id: "news-our-work-grokking-of-diffusion-models-case-study-on-modular-addition-arxiv-was-presented-at-the-iclr-2026-delta-workshop",
           title: 'Our work Grokking of Diffusion Models: Case Study on Modular Addition (arxiv) was...',
           description: "",
