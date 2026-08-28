@@ -44,7 +44,18 @@ ninja.data = [{
               handler: () => {
                 window.location.href = "/teaching/";
               },
-            },{id: "post-presentation-pdf-generative-modeling-via-drifting",
+            },{id: "post-pi-flow-policy-based-few-step-generation-via-imitation-distillation",
+        
+          title: "Pi-Flow Policy-Based Few-Step Generation via Imitation Distillation",
+        
+        description: "Chen et al.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2026/pi_flow/";
+          
+        },
+      },{id: "post-presentation-pdf-generative-modeling-via-drifting",
         
           title: "(Presentation PDF) Generative Modeling via Drifting",
         
