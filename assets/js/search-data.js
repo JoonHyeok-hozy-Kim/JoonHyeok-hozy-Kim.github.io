@@ -44,7 +44,40 @@ ninja.data = [{
               handler: () => {
                 window.location.href = "/teaching/";
               },
-            },{id: "post-pi-flow-policy-based-few-step-generation-via-imitation-distillation",
+            },{id: "post-ca2-vdm-efficient-autoregressive-video-diffusion-model-with-causal-generation-and-cache-sharing",
+        
+          title: "Ca2-VDM - Efficient Autoregressive Video Diffusion Model with Causal Generation and Cache Sharing...",
+        
+        description: "Gao et al.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2026/ca2_vdm/";
+          
+        },
+      },{id: "post-acdit-interpolating-autoregressive-conditional-modeling-and-diffusion-transformer",
+        
+          title: "ACDiT - Interpolating Autoregressive Conditional Modeling and Diffusion Transformer",
+        
+        description: "Hu et al.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2026/acdit/";
+          
+        },
+      },{id: "post-self-forcing-bridging-the-train-test-gap-in-autoregressive-video-diffusion",
+        
+          title: "Self Forcing - Bridging the Train-Test Gap in Autoregressive Video Diffusion",
+        
+        description: "Huang et al.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2026/self_forcing/";
+          
+        },
+      },{id: "post-pi-flow-policy-based-few-step-generation-via-imitation-distillation",
         
           title: "Pi-Flow Policy-Based Few-Step Generation via Imitation Distillation",
         
