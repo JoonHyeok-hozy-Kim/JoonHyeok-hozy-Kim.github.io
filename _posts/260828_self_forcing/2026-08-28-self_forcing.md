@@ -3,8 +3,8 @@ layout: post
 title: Self Forcing - Bridging the Train-Test Gap in Autoregressive Video Diffusion
 date: 2026-08-28 11:00:00
 description: Huang et al.
-tags: AR video
-categories: diffusion_model
+tags: video DMD
+categories: ar_diffusion_model
 # pdf: _posts/250908_style_gan/slides_style_gan.pdf
 pretty_table: true
 ---
