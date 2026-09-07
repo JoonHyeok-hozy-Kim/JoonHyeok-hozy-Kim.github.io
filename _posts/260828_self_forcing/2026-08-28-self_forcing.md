@@ -16,7 +16,41 @@ pretty_table: true
 ---
 
 ### Hozy Summary
-
+- Problem)
+  - Previous methods denoise future frames based on ground-truth (GT) context frames.
+  - This causes **exposure bias**.
+    - i.e.) a model is trained exclusively on ground-truth context but must rely on its own imperfect predictions at inference time, resulting in a distributional mismatch that compounds errors as generation progresses.
+    - Additionally, the error accumulates following the AR generation.
+    - Consequently, the quality of the generated video degrades.
+- Sol.)
+  - Generate each frame conditioned on previously self-generated frames rather than GT ones.
+    - How?)
+      - [Self Rollout](#32-autoregressive-diffusion-post-training-via-self-rollout)
+      - [Supervision with Holistic Distribution Matching Loss](#33-holistic-distribution-matching-loss)
+  - Computation
+    - Few step diffusion distillation backbone
+    - Gradient truncation strategy
+  - Further accomplishments
+    - Long video generation through rolling KV cache mechanism
+- Implementation)
+  - Main Training Algorithm) `model.base.py`
+    - Pipeline) 
+      - For blocks $$i=1,\ldots,N$$ (causality!)
+        - Sample $$s\sim\mathcal U\{1,\ldots,K\}$$ : randomly selected exit denoising-step index.
+          - where $$\{t_1,\ldots,t_K\}$$ : student's few denoising timesteps
+          - Sampled at each training iteration.
+            - The default implementation samples a separate $$s^i,\quad i=1,\ldots,N$$
+          - Gradient is enabled only at the selected exit step $$j=s$$.
+        - Self Rollout
+          - $$\underbrace{x_{t_K}^i \sim \mathcal{N}(0, \mathbf{I})}_{t=t_K} \longrightarrow {\left\{\begin{array}{ccc} \nearrow & \overbrace{\hat{x}_0^i = G_\theta(x_{t_j}^i;\; t_j, \text{KV})}^{\text{Predict } x_0 \text{ cond. on } \hat{x}_0^{\lt i} \text{ in KV}} & \searrow \\ \nwarrow & \underbrace{x_{t_{j-1}^i} = \Psi(\hat{x}_0^i, \epsilon, t_{j-1})}_{\text{fwd(inject noise) to } t_{j-1}} &  \swarrow \end{array} \right\}}_{j=K,\ldots,s} \longrightarrow \begin{cases} \overbrace{X_\theta\text{.append}(\hat{x}_0^i)}^{\text{Append generated block to the rollout video}} \quad (j=s \text{ only!}) \\ \underbrace{\text{KV}\leftarrow \overbrace{G_\theta^{\text{KV}}(\hat{x}_0^i)}^{t=0}}_{\text{Cache the } i \text{-th block}}\end{cases}$$.
+            - Desc.)
+              - $$\{t_1,\ldots,t_K\}$$ : student's few denoising timesteps
+              - Compute and append the K/V features of the generated $$i$$-th block.
+    - Objectives)
+      - Same DMD objective as the [CausVid](/blog/2026/causvid)
+        - $$\mathcal{L}_{\text{DMD}}$$ : Distribution Matching Loss
+        - $$\mathcal{L}_{\text{denoise}}$$ : Denoising Loss
+  - Inference Algorithm) `pipeline.self_forcing_training.py`
 
 ---
 
@@ -60,7 +94,11 @@ pretty_table: true
 <br><br>
 
 ### 3.2 Autoregressive Diffusion Post-Training via Self-Rollout
-- Training)
+- Setup)
+  - [Student ODE Initialization Protocol from CausVid](/blog/2026/causvid#43-student-initialization)
+    - Recap)
+      - Optimize $$\mathcal{L}_{\text{init}} = \mathbb{E}_{x, t^i}\left\Vert G_\phi\left( \left\{ x_{t^i}^i \right\}_{i=1}^N , \left\{ t^i \right\}_{i=1}^N \right) - \left\{ x_{0}^i \right\}_{i=1}^N \right\Vert$$
+- Idea)
   - Sample a batch of videos $$\left\{x^{1:N}\right\} \sim p\left( x^{1:N} \right) = \displaystyle\prod_{i=1}^N p\left( x^i \mid x^{\lt i} \right)$$
     - conditioned on self-generated outputs including both...
       - clean context frames in the past
@@ -70,13 +108,27 @@ pretty_table: true
         1. Condition on previous clean frames $$x^{\lt i}$$
         2. Obtain previous timestep noisy frame $$x_{t_{j-1}}^i$$ through the forward process $$\Psi$$ and inject a Gaussian noise with lower noise level
         3. Perform few-step diffusion process
+- Rollout Implementation)
+  - At timestep $$t_j$$,
+    1. Suppose we have a intermediate denoising latent of $$x_{t_j}^i$$ given from the previous $$t=t_{j+1}$$ timestep.
+       - cf.) When $$t=T,\quad x_{T}^i\sim\mathcal{N}(0,\mathbf{I})$$
+    3. Sample $$\hat{x}_0^i \leftarrow G_\phi\left( x_{t_j}^i;\; t_j \right)$$
+       - i.e.) Denoise to $$t=0$$ using the generator.
+    4. Inject noise to $$\hat{x}_0^i$$ to back to the level of $$t=t_{j-1}$$ using the forward process $$\Psi$$.
+       - i.e.) $$x_{t_{j-1}}^i \leftarrow \Psi\left( \hat{x}_0^i, \epsilon, t_{j-1} \right)$$ where $$\epsilon\sim\mathcal{N}(0,\mathbf{I})$$
+  - Repeat this for $$t=T,\ldots,s$$ where $$s\sim \mathcal{U}(1,T)$$ is a sampled denoising timestep.
+    - At each epoch, it uses the $$s$$-th step output as the final output.
+      - Why doing this?)
+        - To ensure all intermediate denoising steps receive supervision signals
+
+{% include figure.liquid path="assets/img/blog/260828_self_forcing/002.png" class="img-fluid rounded z-depth-1 blog-img-medium" zoomable=true %}
+
+- Other technical details
   - Employ KV caching during training as well.
   - Gradient truncation
     - i.e.) Limit the backpropagation to only the final denoising step of each frame
-  - Sample a denoising timestep $$s\sim \mathcal{U}(1,T)$$, and use the $$s$$-th step output as the final output
-    - Why doing this?)
-      - To ensure all intermediate denoising steps receive supervision signals
   - Detach the gradients of the previous frames from the current frame by restricting gradient flow into KV cache embeddings. 
+
 
 <br><br>
 
