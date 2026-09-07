@@ -44,7 +44,40 @@ ninja.data = [{
               handler: () => {
                 window.location.href = "/teaching/";
               },
-            },{id: "post-ca2-vdm-efficient-autoregressive-video-diffusion-model-with-causal-generation-and-cache-sharing",
+            },{id: "post-parallel-decoding-distillation-for-image-and-video-generation-pdd",
+        
+          title: "Parallel Decoding Distillation for Image and Video Generation (PDD)",
+        
+        description: "Shaul et al.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2026/pdd/";
+          
+        },
+      },{id: "post-from-slow-bidirectional-to-fast-autoregressive-video-diffusion-models-causvid",
+        
+          title: "From Slow Bidirectional to Fast Autoregressive Video Diffusion Models (CausVid)",
+        
+        description: "Yin et al.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2026/causvid/";
+          
+        },
+      },{id: "post-causal-forcing-autoregressive-diffusion-distillation-done-right-for-high-quality-real-time-interactive-video-generation",
+        
+          title: "Causal Forcing - Autoregressive Diffusion Distillation Done Right for High-Quality Real-Time Interactive Video...",
+        
+        description: "Zhu et al.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2026/causal_forcing/";
+          
+        },
+      },{id: "post-ca2-vdm-efficient-autoregressive-video-diffusion-model-with-causal-generation-and-cache-sharing",
         
           title: "Ca2-VDM - Efficient Autoregressive Video Diffusion Model with Causal Generation and Cache Sharing...",
         
