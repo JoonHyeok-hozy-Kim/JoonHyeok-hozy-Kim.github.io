@@ -44,7 +44,18 @@ ninja.data = [{
               handler: () => {
                 window.location.href = "/teaching/";
               },
-            },{id: "post-parallel-decoding-distillation-for-image-and-video-generation-pdd",
+            },{id: "post-video-mirai-autoregressive-video-diffusion-models-need-foresight",
+        
+          title: "Video-Mirai - Autoregressive Video Diffusion Models Need Foresight",
+        
+        description: "Yu et al.",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2026/video_mirai/";
+          
+        },
+      },{id: "post-parallel-decoding-distillation-for-image-and-video-generation-pdd",
         
           title: "Parallel Decoding Distillation for Image and Video Generation (PDD)",
         
